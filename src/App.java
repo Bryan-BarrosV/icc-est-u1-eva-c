@@ -1,3 +1,10 @@
+import Controllers.LibroControllers;
+import Models.Book;
+import Views.ViewConsole;
+
+
+
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -34,5 +41,15 @@ public class App {
                 new Book("The Elements of Statistical Learning", 2001)
         };
 
+        ViewConsole vC=new ViewConsole();
+        LibroControllers lC= new LibroControllers();
+        vC=obtenerAño();
+        System.out.println("Mostar el año del libro");
+        lC.año(books);
+        lC.
+    }
+
+    private static ViewConsole obtenerAño() {
+        throw new UnsupportedOperationException("Unimplemented method 'obtenerAño'");
     }
 }

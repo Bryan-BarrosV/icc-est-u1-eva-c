@@ -44,7 +44,7 @@ public class App {
         ViewConsole vC=new ViewConsole();
         LibroControllers lC= new LibroControllers();
         vC=obtenerAño();
-        System.out.println("Mostar el año del libro");
+        System.out.println("Mostar el año  del libro");
         lC.año(books);
         lC.
     }
